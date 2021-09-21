@@ -1,0 +1,28 @@
+header {
+    background-image: linear-gradient(to right, #007bff, #0020FF);
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+.btn {
+    color: black;
+
+}
+
+/* .btn::after {
+    content: " ";
+    display: block;
+    width: 100%;
+    background: black;
+    height: 2px;
+} */
+
+.search-container {
+    gap: 10px;
+}
+
+.results-container {
+    margin-top: 10px;
+}
