@@ -47,8 +47,7 @@ function runHistory() {
 };
 
 function getCoordinateApi(search) {
-    console.log(search);
-    var requestUrl = "http://api.openweathermap.org/data/2.5/weather?q=" + search + "&units=imperial&appid=d8a9dd36291435cdba31ee628d84c869";
+    var requestUrl = "https://api.openweathermap.org/data/2.5/weather?q=" + search + "&units=imperial&appid=d8a9dd36291435cdba31ee628d84c869";
     fetch(requestUrl)
         .then(function (response) {
             return response.json();
@@ -153,7 +152,7 @@ function getCoordinateApi(search) {
                     cardDivVar.appendChild(cardContentVar);
 
                     var iconSmall = document.createElement('img');
-                    iconSmall.src = "http://openweathermap.org/img/wn/" + secondData.daily[index].weather[0].icon + ".png";
+                    iconSmall.src = "https://openweathermap.org/img/wn/" + secondData.daily[index].weather[0].icon + ".png";
                     cardDivVar.appendChild(iconSmall);
 
                     var tempSmallVar = document.createElement('p');
