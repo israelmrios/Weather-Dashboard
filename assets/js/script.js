@@ -80,7 +80,7 @@ function getCoordinateApi(search) {
 
 // Adding a image element and appending it next to the h3 headder
             var iconVar = document.createElement('img');
-            iconVar.src = "http://openweathermap.org/img/wn/" + todayIcon + "@2x.png";
+            iconVar.src = "https://openweathermap.org/img/wn/" + todayIcon + "@2x.png";
             header.append(iconVar);
 
 // Appending the other data to the bottom of todays container
