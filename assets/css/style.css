@@ -29,6 +29,7 @@ h3 {
     margin: 0px 0px 10px 0px;
 }
 
+/* UV Index class selector, styling (green is for favorable) */
 .span-box-green {
     border: solid green;
     border-radius: 5px;
@@ -37,6 +38,7 @@ h3 {
     color: white;
 }
 
+/* UV Index class selector, styling (yellow for moderate) */
 .span-box-yellow {
     border: solid yellow;
     border-radius: 5px;
@@ -45,6 +47,7 @@ h3 {
     color: black;
 }
 
+/* UV Index class selector, styling (red for severe) */
 .span-box-red {
     border: solid red;
     border-radius: 5px;
