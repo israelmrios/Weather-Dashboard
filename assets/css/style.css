@@ -6,23 +6,68 @@ header {
     padding: 10px 0px 10px 0px;
 }
 
-.btn {
-    color: black;
-
-}
-
-/* .btn::after {
-    content: " ";
-    display: block;
-    width: 100%;
-    background: black;
-    height: 2px;
-} */
-
 .search-container {
     gap: 10px;
 }
 
+.city-search {
+    border-radius: 5px;
+    text-indent: 5px;
+    font-size: 1.5rem;
+}
+
+.btn {
+    color: black;
+}
+
+hr {
+    margin: 0px;
+}
+
+h3 {
+    padding: 0px;
+    margin: 0px 0px 10px 0px;
+}
+
+.span-box-green {
+    border: solid green;
+    border-radius: 5px;
+    padding: 0px 10px 0px 10px;
+    background-color: green;
+    color: white;
+}
+
+.span-box-yellow {
+    border: solid yellow;
+    border-radius: 5px;
+    padding: 0px 10px 0px 10px;
+    background-color: yellow;
+    color: black;
+}
+
+.span-box-red {
+    border: solid red;
+    border-radius: 5px;
+    padding: 0px 10px 0px 10px;
+    background-color: red;
+    color: black;
+}
+
 .results-container {
     margin-top: 10px;
+    gap: 15px;
+}
+
+.five-day-cont {
+    padding: 0px;
+}
+
+.cardContStyle {
+    gap: 10px;
+}
+
+.cardStyle {
+    background-color: rgb(36, 59, 105);
+    color: white;
+    font-size: .75rem;
 }
