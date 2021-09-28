@@ -13,7 +13,7 @@ function init() {
     var storedData = localStorage.getItem("history");
     if (storedData) {
         searchHistory = JSON.parse(storedData)
-        searchHistory.length = 8;
+        // searchHistory.length = 8;
     };
 createBtn();
 };
@@ -25,7 +25,7 @@ init();
 function createBtn() {
     btnContainer.innerHTML = "";
     
-    for (var index = 0; index < uniqueSearchHistory(searchHistory).length; index++) {
+    for (var index = 0; index < uniqueSearchHistory(searchHistory).length && index < 8; index++) {
         var addBtnVar = document.createElement('button');
         addBtnVar.setAttribute('id', 'historyBtn');
         addBtnVar.setAttribute('class', 'btn btn-secondary');
